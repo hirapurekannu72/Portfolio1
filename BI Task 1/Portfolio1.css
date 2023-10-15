@@ -1,0 +1,350 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+   
+}
+html,body{
+    height: 100vw;
+    width: 100%;
+   
+}
+#main{
+    
+    overflow: hidden;
+    
+}  
+
+#page{
+    position: relative;
+    height:70vw;
+    width: 100%;
+    background-color: #E2C2C5;
+}
+
+#page img{
+    height: 70%;
+    width: 50%;
+    float: right;
+    margin-top: 80px;
+    margin-right: 30px;
+}
+#img img{
+    height: 140%;
+    width: 50%;
+    float: left;
+    margin-left: 20%;
+    margin-top: 5%;    
+}
+#page #nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-right:40px ;
+    position: absolute;
+    z-index: 9;
+    height: 10%;
+    width: 100%;
+    margin-right: 30px;
+    
+}
+#center-nav{
+    display: flex;
+    gap: 15px;
+    
+}
+#center-nav a{
+    text-decoration: none;
+    color:black;
+    font-size: 1em;
+    font-weight: 1000;
+    padding-right: 39px;
+    margin-right: 30px;
+}
+
+#nav input{
+    padding: 10px 5px;
+    border-radius: 10px;
+    border: none;
+    text-transform: uppercase;
+    background-color: #fff;
+}
+
+#text{
+    height: 40%;
+    width: 35%;
+    padding-top: 120px;
+    padding-left: 60px;
+}
+
+#text h1{
+    font-size: 60px;
+    line-height: 1;
+    color:black;
+    margin-top: 20px;
+}
+#text h4{
+    margin-top: 10px;
+    color:black;
+    font-size: 14px;
+    font-weight: 00;
+}
+#button{
+    height:30%;
+    width: 100%;
+    color:#fff;
+    font-weight: bold;
+   margin-top: 20px;
+
+}
+
+
+#button button{
+    border-radius: 10px;
+    font-weight: bold;
+   
+
+    
+}   
+#button #b1{
+   
+    color: #fff;
+    font-family:sans-serif;
+   
+    border: none;
+    width: 90px;
+    height: 95%;
+    border-radius: 10px;
+    display: inline-block;
+    outline: 0;
+    background-image: linear-gradient(to right,#e052a0,#f15c41);
+    cursor: pointer;
+    color: #fff;
+    font-weight: 500;
+    text-align: center;
+    text-transform: uppercase;
+    height: 36px;
+    line-height: 36px;
+    padding: 0 10px;
+    font-size: 14px;
+}
+#button #b1:hover {
+        background-image: linear-gradient(to right,#3ec7e0,#526bf4);
+    }
+
+#button #b2{
+    margin-left: 20px;
+    font-family:sans-serif;
+    border-radius: 10px;
+    height: 95%;
+    width: 35%;
+    display: inline-block;
+    outline: 0;
+    border: 0;
+    background-image: linear-gradient(to right,#e052a0,#f15c41);
+    cursor: pointer;
+    color: #fff;
+    font-weight: 500;
+    text-align: center;
+    text-transform: uppercase;
+    height: 36px;
+    line-height: 36px;
+    padding: 0 10px;
+    font-size: 14px;
+}
+#button #b2:hover {
+        background-image: linear-gradient(to right,#3ec7e0,#526bf4);
+    }
+
+
+
+#about{
+    height: 55vw;
+    width: 100vw;
+    position: relative;
+    background-color: #fff;
+
+}
+#about img{
+    height: 400px;
+    width: 55%;
+    margin-top: 60px;
+}
+#about-text{
+    float: right;
+    margin-right: 70px;
+    width: 35%;
+    padding-top: 90px;
+}
+#about-text h1{
+    font-size: 50px;
+    line-height: 1;
+    color:black;
+    margin-top: 20px;
+}
+#about-text h4{
+    margin-top: 10px;
+    color:black;
+    font-size: 14px;
+    font-weight: 00;    
+}
+#button1{
+    margin-top: 20px;
+    height: 30px;
+    border-radius: 10px;
+    
+}
+#button1 button{
+    font-family:sans-serif;
+    font-size: 14px;
+    border: none;
+    width: 120px;
+    height: 95%;
+    border-radius: 10px;
+    font-weight: bold;
+    display: inline-block;
+    outline: 0;
+    border-radius: 10px;    
+    background-image: linear-gradient(to right,#e052a0,#f15c41);
+    cursor: pointer;
+    color: #fff;
+    font-weight: 500;
+    text-align: center;
+    text-transform: uppercase;
+    height: 36px;
+    line-height: 36px;
+    padding: 0 10px;
+    font-size: 14px;
+}
+#button1 button:hover {
+        background-image: linear-gradient(to right,#3ec7e0,#526bf4);
+    }
+
+
+#skill{
+   width: 500px;
+   height: 60%;
+   margin: 60px auto;
+   color:black;
+   padding: 20px;
+   box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25),0 10px 10px rgba(0, 0, 0, 0.22);
+}
+#skill h1{
+    text-align: center;
+}
+#skill h3{
+    margin: 5px;
+}
+#skill P{
+    margin: 20px 0;
+    padding: 10px;
+}
+#br{
+    background-color: #353b48;
+    color: #0f1013;
+    display: block;
+    height: 20px;
+    border: 1px solid rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12),0 1px 2px rgba(0, 0, 0, 0.24);
+    transition: all 0.3s cubic-bezier(.25, .8, .25, 1);
+}
+#bar:hover{
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.25),0 10px 100px rgba(0, 0, 0, 0.22);
+}
+#bar span{
+    height: 20px;
+    float: left;
+    background: linear-gradient(135deg, rgba(236,0,140,1)0%,rgba(252,103,103,1)100%);
+}
+#HTML{
+    width: 90%;
+    animation: HTML 3s;
+}
+#CSS{
+    width: 70%;
+    animation: CSS 3s;
+}
+#Javascript{
+    width: 50%;
+    animation: Javascript 3s;
+}
+#Photoshop{
+    width: 60%;
+    animation: Photoshop 3s;
+}
+@keyframes HTML{
+    0%{
+        width:0%;
+    }
+    100%{
+        width:90%;
+    }    
+}
+@keyframes CSS{
+    0%{
+        width:0%;
+    }
+    100%{
+        width:90%;
+    }    
+}
+@keyframes Javascript{
+    0%{
+        width:0%;
+    }
+    100%{
+        width:90%;
+    }    
+}
+@keyframes Photoshop{
+    0%{
+        width:0%;
+    }
+    100%{
+        width:90%;
+    }    
+}
+#contact{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    align-items: center;
+    gap: 3rem;
+    padding-left: 50px;
+    background-color: #E2C2C5;
+    height: 60vw;
+    width: 100vw;
+}
+#contact-text h5{
+    margin: 15px 0;
+    color: var(--main-color);   
+    font-weight: 00;
+    margin-bottom: 150px;
+    color:black;
+    font-size: 14px;
+}
+#contact-text h1{  
+    font-size: 50px;
+    line-height: 1;
+    color:black;
+    margin-top: 20px;
+}
+
+#contact-form form{
+    position: relative;
+}
+#contact-form form input,
+form textarea{
+    border: none;
+    outline: none;
+    width: 90%;
+    padding: 18px;
+    background-color: aliceblue;
+    color: var(--text-color);
+    font-size:1rem;
+    font-weight: 600;
+    margin-bottom: 0.5rem;
+    border-radius: 0.5rem;
+}
